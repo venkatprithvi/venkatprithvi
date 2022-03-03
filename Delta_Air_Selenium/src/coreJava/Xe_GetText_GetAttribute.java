@@ -28,7 +28,7 @@ public class Xe_GetText_GetAttribute {
 		//get the amount editbox default value
 		WebElement inputdata = driver.findElement(By.xpath("//input[@id='amount']"));
 		System.out.println(inputdata.getAttribute("value"));
-		//
+		//pulling data 
 		WebElement textdata = driver.findElement(By.xpath("//h2[contains(text(),'How to transfer money in 3 easy steps')]"));
 		System.out.println(textdata.getText());
 		driver.close();
